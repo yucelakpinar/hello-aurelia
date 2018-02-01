@@ -1,0 +1,25 @@
+{
+  "name": "hello-aurelia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "http-server ./dist -o -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aurelia-bootstrapper": "^2.2.0",
+    "aurelia-framework": "^1.1.5",
+    "aurelia-router": "^1.5.0"
+  },
+  "devDependencies": {
+    "aurelia-webpack-plugin": "^2.0.0-rc.5",
+    "html-webpack-plugin": "^2.30.1",
+    "ts-loader": "^3.4.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  }
+}
